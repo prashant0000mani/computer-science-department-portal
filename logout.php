@@ -1,0 +1,9 @@
+<?php
+	if(isset($_COOKIE['status']))
+    {
+        setcookie("status","logout",time()-1);
+        header("location:index.php");
+    }
+    else
+    header("location:index.php");
+?>
