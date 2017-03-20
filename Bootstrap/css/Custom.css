@@ -1,0 +1,7 @@
+﻿.padding{padding:10px;}
+.logpadding{padding:10px; padding-top:150px;}
+.fullwidth{width:100%; height:auto; background-color:silver;}
+@media(max-width:500px)
+{
+    .logpadding{padding:10px;}
+}
